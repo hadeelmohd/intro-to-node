@@ -2,6 +2,7 @@ var http = require('http');
 var fs = require('fs');
 //to access the file system
 var url = require('url');
+const PORT = process.env.PORT || 5000 //use whatever port heroku tells u to
 
 http.createServer(function (req, res) {
     var q = url.parse(req.url, true);
@@ -23,6 +24,6 @@ res.write(data);//data is fs.html
 console.log("...Incoming request: " + req.url);//server console status massages
 return res.end(); 
     })
-}).listen(8080); 
+}).listen(PORT); 
 
 console.log('server listening on port 8080...');
