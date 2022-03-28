@@ -1,0 +1,19 @@
+{
+  "name": "nodefillets",
+  "version": "17.4.0",
+  "description": "simple web app",
+  "main": "filesystem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/hadeelmohd/intro-to-node.git"
+  },
+  "author": "hadeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadeelmohd/intro-to-node/issues"
+  },
+  "homepage": "https://github.com/hadeelmohd/intro-to-node#readme"
+}
